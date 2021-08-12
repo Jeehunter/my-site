@@ -1,5 +1,5 @@
 <template>
-    <i class="iconfont" :class="fontClass"></i>
+    <i class="iconfont icon-container" :class="fontClass"></i>
 
     
     
@@ -8,7 +8,13 @@
 <script>
 const iconMap ={
             
-    home:"icon-Home"
+    home:"icon-Home",
+    empty:"icon-empty",
+    github:"icon-github1",
+    email:"icon-youxiang",
+    wechat:"icon-weixin",
+    qq:"icon-qq",
+
 }
 
 export default {
@@ -27,5 +33,5 @@ export default {
 </script>
 
 <style scoped>
-    @import url('https://at.alicdn.com/t/font_2730713_dbmu6ocviyv.css');
+    @import url('//at.alicdn.com/t/font_2730713_deb5ppgejd.css');
 </style>

@@ -2,38 +2,46 @@
   <div id="app">
     <!-- <avatar size="100" :url="'https://www.chachaba.com/news/uploads/210809/7545_210809162932_1.jpg'" />
     <Icon  :type="'home'" /> -->
-    <Pager  :current="current" :total="total" @pageChange="handlePageChange"/>
+    <div class="test-container">
+      <Empty :text="'显示的文字'" />
+    </div>
   </div>
 </template>
 
 <script>
 // import Avatar from './components/Avatar.vue';
 // import Icon from './components/Icon.vue';
-import Pager from './components/Pager';
-import "./styles/global.less";
+import Empty from "./index.vue";
 
 export default {
-  name: 'App',
-  data(){
-    return{
-      current:1,
-      total:302,
-    }
+  name: "App",
+  data() {
+    return {
+      current: 1,
+      total: 302,
+    };
   },
   components: {
-    Pager
+    Empty,
   },
-  methods:{
-    handlePageChange(newPage){
-      console.log('Pager to:',newPage);
+  methods: {
+    handlePageChange(newPage) {
+      console.log("Pager to:", newPage);
       this.current = newPage;
-
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style>
+.test-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f40;
+}
+.empty-container {
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

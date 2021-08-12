@@ -1,5 +1,5 @@
 <template>
-    <img class="avatar" :height="size+'px'" :width="size+'px'" :src="url" alt="用户头像">
+    <img class="avatar-container" :height="size+'px'" :width="size+'px'" :src="url" alt="用户头像">
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-    .avatar{
+    .avatar-container{
         display: block;
         border-radius: 50%;
         object-fit: cover;

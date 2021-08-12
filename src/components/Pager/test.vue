@@ -9,8 +9,8 @@
 <script>
 // import Avatar from './components/Avatar.vue';
 // import Icon from './components/Icon.vue';
-import Pager from './components/Pager';
-import "./styles/global.less";
+import Pager from './index.vue';
+import "../../styles/global.less";
 
 export default {
   name: 'App',
