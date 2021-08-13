@@ -1,5 +1,5 @@
 <template>
-    <Contact />
+    <Contact  size='300'/>
 </template>
 
 <script>

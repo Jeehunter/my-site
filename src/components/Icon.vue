@@ -34,4 +34,8 @@ export default {
 
 <style scoped>
     @import url('//at.alicdn.com/t/font_2730713_deb5ppgejd.css');
+    i{
+        font-size: inherit;
+        color: inherit;
+    }
 </style>
