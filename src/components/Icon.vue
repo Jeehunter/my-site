@@ -14,7 +14,10 @@ const iconMap ={
     email:"icon-youxiang",
     wechat:"icon-weixin",
     qq:"icon-qq",
-
+    blog:"icon-Newspaper",
+    about:"icon-guanyu",
+    code:"icon-daima",
+    comment:"icon-Commentalt"
 }
 
 export default {
@@ -33,7 +36,7 @@ export default {
 </script>
 
 <style scoped>
-    @import url('//at.alicdn.com/t/font_2730713_deb5ppgejd.css');
+    @import url('//at.alicdn.com/t/font_2730713_j8nw7rnzn5h.css');
     i{
         font-size: inherit;
         color: inherit;
