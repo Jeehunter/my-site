@@ -33,7 +33,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .test-container {
   position: relative;
   width: 300px;

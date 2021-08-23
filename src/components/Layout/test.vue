@@ -27,17 +27,17 @@ html,body{
 }
   .layout-container{
     display: flex;
-    width: 80%;
-    height: 800px;
+    // width: 80%;
+    // height: 800px;
     border: 1px solid #f40;
     .left{
       height:100%;
-      width:200px;
+      width:17%;
       background-color: lightblue;
     }
     .main{
       height: 100%;
-      width: 100px;
+      // width: 100px;
       background-color: lightcoral;
     }
     .right{

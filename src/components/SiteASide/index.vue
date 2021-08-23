@@ -32,13 +32,13 @@ export default {
 };
 </script>
 
-<style lang='less'>
+<style lang='less' >
 @import "~@/styles/var.less";
 .siteASide-container {
   display: flex-box;
   position: relative;
   overflow: hidden;
-  width: 300px;
+  width: 330px;
   height: 100%;
   background-color: @dark;
 }

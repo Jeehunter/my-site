@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Layout>
+    <Layout class="layout-container">
       <template #left>
         <div class="left">
           <SiteASide avatarUrl="https://pic.chaqiuqian.com/avatar.png"/>
@@ -9,8 +9,17 @@
       </template>
 
       <template #main>
-        <div class="main"></div>
+        <div class="main">
+          <router-view></router-view>
+          
+
+        </div>
       </template>
+      <!-- <template #right>
+        <div class="right">
+          <router-view></router-view>
+        </div>
+      </template> -->
     </Layout>
   </div>
 </template>
@@ -31,11 +40,16 @@ export default {
     Layout,
     SiteASide,
   },
-  methods: {},
+  methods: {
+    testShowMessage(){
+      this.showMessage('消息内容','info',2000,)
+    }
+
+  },
 };
 </script>
 
-<style>
+<style >
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,11 +60,25 @@ export default {
 } */
 html,body{
   height: 100%;
+  width: 100%;
   display: flex;
 }
-.left{
-  
-  width: 300px;
+#app{
+  width: 100%;
   height: 100%;
+}
+.left{
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  height: 100%;
+  z-index: 999;
+}
+.main{
+  height:100%;
+  width: 83%;
+  /* margin-left: -70px;
+  transform: scale(120%); */
+  z-index: 1;
 }
 </style>

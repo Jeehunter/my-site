@@ -6,19 +6,23 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:Pager":"vue serve ./src/components/Pager/test.vue",
-    "test:Empty":"vue serve ./src/components/Empty/test.vue",
-    "test:ImageLoader":"vue serve ./src/components/ImageLoader/test.vue",
-    "test:Contact":"vue serve ./src/components/Contact/test.vue",
-    "test:Menu":"vue serve ./src/components/Menu/test.vue",
-    "test:SiteASide":"vue serve ./src/components/SiteASide/test.vue",
-    "test:Layout":"vue serve ./src/components/Layout/test.vue"
+    "test:Pager": "vue serve ./src/components/Pager/test.vue",
+    "test:Empty": "vue serve ./src/components/Empty/test.vue",
+    "test:ImageLoader": "vue serve ./src/components/ImageLoader/test.vue",
+    "test:Contact": "vue serve ./src/components/Contact/test.vue",
+    "test:Menu": "vue serve ./src/components/Menu/test.vue",
+    "test:SiteASide": "vue serve ./src/components/SiteASide/test.vue",
+    "test:Layout": "vue serve ./src/components/Layout/test.vue"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.5",
     "less": "^4.1.1",
     "less-loader": "^6.0.0",
-    "vue": "^2.6.11"
+    "parallax-js": "^3.1.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

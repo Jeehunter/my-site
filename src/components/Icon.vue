@@ -17,7 +17,11 @@ const iconMap ={
     blog:"icon-Newspaper",
     about:"icon-guanyu",
     code:"icon-daima",
-    comment:"icon-Commentalt"
+    comment:"icon-Commentalt",
+    error:"icon-error",
+    warn:"icon-warn",
+    success:"icon-success",
+    info:"icon-info"
 }
 
 export default {
@@ -36,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-    @import url('//at.alicdn.com/t/font_2730713_j8nw7rnzn5h.css');
+    @import url('//at.alicdn.com/t/font_2730713_l12nv4q1b6e.css');
     i{
         font-size: inherit;
         color: inherit;
